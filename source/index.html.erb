@@ -34,13 +34,17 @@
       <div class="page-header">
         <h1>About</h1>
       </div>
-      <p class="lead">They're great!</p>
+      <p class="lead">
+        We accomodate all dogs from small to extra large breeds. We provide a pick up and drop off service in Dunedin and Balclutha including Airport meetings.
+      </p>
 
-      <div class="row ticks lead">
+      <div class="row ticks">
         <% ["Individual kennels", "Private runs", "Large exercise yards", "Underfloor heating", "Top quality feed twice a day included", "Option to bring your own food"].each do |text| %>
           <div class="col-sm-6">
-            <i>✔</i>
-            <%= text %>
+            <h4>
+              <i>✔</i>
+              <%= text %>
+            </h4>
           </div>
         <% end %>
       </div>
